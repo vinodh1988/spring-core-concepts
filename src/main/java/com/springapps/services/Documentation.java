@@ -1,8 +1,10 @@
 package com.springapps.services;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 @Service
+@Scope("prototype")
 public class Documentation implements Activity {
 
 	@Override
